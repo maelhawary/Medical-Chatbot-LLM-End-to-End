@@ -1,0 +1,7 @@
+transformers==4.27.4
+langchain
+streamlit 
+pdfplumber
+sentencepiece
+accelerate
+sentence_transformers
