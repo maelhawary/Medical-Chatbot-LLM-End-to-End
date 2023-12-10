@@ -2,8 +2,8 @@ from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, pipeline
 from langchain.llms import HuggingFacePipeline
 from langchain.chains import RetrievalQA
 from langchain.prompts import PromptTemplate
-import Embeddings as emb
-import VDB as vdb
+import utils.Embeddings as emb
+import utils.VDB as vdb
 from langchain.vectorstores import FAISS
 
 def llm_pipeline(file_path):
