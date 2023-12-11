@@ -3,9 +3,9 @@ import LLM_pipline as llm
 import tempfile
 
 
-st.set_page_config(layout='wide',page_title='Questions Answering APP')
+st.set_page_config(layout='wide',page_title='Medical Chatbot Web-APP')
 def main(embd_name,llm_name,VB_path):
-    st.title('PDF Question Answer Web-App')
+    st.title('Medical Chatbot Web-App')
 
     #uploaded_file=st.file_uploader("Upload your PDF File Here",type=['pdf'])
 
