@@ -7,10 +7,6 @@ st.set_page_config(layout='wide',page_title='Medical Chatbot Web-APP')
 def main(embd_name,llm_name,VB_path):
     st.title('Medical Chatbot Web-App')
 
-    #uploaded_file=st.file_uploader("Upload your PDF File Here",type=['pdf'])
-
-    #if uploaded_file is not None:
-
     question = st.text_input("How I can help you?, Please enter your question or inquiry")
     if st.button("Show Q and A"):
         #filepath =uploaded_file.name
