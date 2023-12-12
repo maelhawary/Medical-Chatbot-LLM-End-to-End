@@ -10,5 +10,5 @@ pip install -r requirements.txt
 ```
 Then, run the app as follows:
 ```bash
-streamlit run web-app.py
+streamlit run Chatbot.py
 ```
